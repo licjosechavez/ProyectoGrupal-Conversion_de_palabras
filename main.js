@@ -5,7 +5,6 @@ console.log(datos);
 document.getElementById('resultado').innerHTML = datos;
 }
 
-
 function convertir(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
